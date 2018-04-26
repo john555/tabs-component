@@ -1,0 +1,35 @@
+.tabGroup {
+  position: relative;
+}
+
+.tabGroup__header {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabGroup__content {
+  position: relative;
+}
+
+.tabHeader {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabHeader__active {
+  background: white;
+  border-bottom: 1px solid orange;
+}
+
+.tabContent {
+  min-height: 200px;
+  background: white;
+  padding: 10px 0;
+  display: none;
+}
+.tabContent__active {
+  display: block;
+}
+
+
